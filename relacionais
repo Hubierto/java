@@ -1,0 +1,21 @@
+package com.example;
+
+public class relacionais {
+    public static void main(String[] args) {
+        
+        int a = 18;
+        int b = 2;
+        int maior;
+        
+        //operadores aritméticos
+        if (a > b) {
+            maior = a;
+        } else {
+            maior = b;
+        }
+        
+        //Exibindo resultados
+        System.out.println("o maior número é " + maior);
+
+    }
+}
