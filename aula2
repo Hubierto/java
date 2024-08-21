@@ -1,0 +1,28 @@
+package com.example;
+
+import java.util.Scanner;
+
+public class aula2 {
+    public static void main(String[] args) {
+        
+        Scanner teclado = new Scanner(System.in);
+        
+        //Declaração de variáveis    
+        
+        System.out.println("Digite o valor da sua compra: ");
+        double valorDaCompra = teclado.nextDouble();
+        
+        double parcelas = valorDaCompra / 5;    
+        
+        System.out.println("Loja Mamão com Açucar");
+        System.out.println("Valor total da sua compra: " + valorDaCompra);
+        System.out.println("parcela 1: " + parcelas);
+        System.out.println("parcela 2: " + parcelas);
+        System.out.println("parcela 3: " + parcelas);
+        System.out.println("parcela 4: " + parcelas);
+        System.out.println("parcela 5: " + parcelas);
+        
+        teclado.close();
+       
+}
+}
