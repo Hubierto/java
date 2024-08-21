@@ -1,0 +1,26 @@
+package com.example;
+
+import java.util.Scanner;
+
+public class aula1 {
+    public static void main(String[] args) {
+
+       Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Digite seu nome: ");
+        String nome = teclado.next();
+        
+        System.out.println("Digite sua idade: ");
+        int idade = teclado.nextInt();
+        
+        System.out.println("Digite seu peso: ");
+        double peso = teclado.nextDouble();
+
+        System.out.println("Seu nome: " + nome);
+        System.out.println("Sua idade: " + idade);
+        System.out.println("Seu peso: " + peso);
+
+        teclado.close();
+    
+}
+}
