@@ -1,0 +1,37 @@
+package com.example;
+
+import java.util.Scanner;
+
+public class aula4 {
+    public static void main(String[] args) {
+
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite sua 1ª nota: ");
+        double nota1 = teclado.nextDouble();
+
+        System.out.println("Digite sua 2ª nota: ");
+        double nota2 = teclado.nextDouble();
+
+        System.out.println("Digite sua 3ª nota: ");
+        double nota3 = teclado.nextDouble();
+
+        System.out.println("Digite sua 4ª nota: ");
+        double nota4 = teclado.nextDouble();
+
+        double media = (nota1 + nota2 + nota3 + nota4)/4;
+
+        System.out.println("Sua média: " + media);
+
+        if (media >= 7) {
+            System.out.println("Aprovado!");
+        } else if (media >= 5) {
+            System.out.println("Verificação suplementar!");
+        } else if (media < 5) {
+            System.out.println("reprovado!");
+        }
+
+        teclado.close();
+
+    }
+}
